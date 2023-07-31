@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stopots - Jogo de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopots - Jogo de Palavras</h1>
+        <div class="game-area">
+            <!-- Aqui será exibida a letra sorteada e o temporizador -->
+            <div class="letter"></div>
+            <div class="timer"></div>
+        </div>
+        <div class="categories">
+            <!-- Lista de categorias -->
+            <ul>
+                <li>Nome</li>
+                <li>Fruta</li>
+                <li>Cor</li>
+                <!-- Adicione mais categorias aqui -->
+            </ul>
+        </div>
+        <div class="input-area">
+            <input type="text" placeholder="Digite uma palavra">
+            <button>Enviar</button>
+        </div>
+        <div class="words-list">
+            <!-- Lista de palavras inseridas -->
+            <ul>
+                <!-- Aqui serão adicionadas as palavras enviadas pelos jogadores -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
